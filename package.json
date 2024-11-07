@@ -6,16 +6,16 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc",
-    "test": "mocha -r ts-node/register 'test/**/*.test.ts'"
+    "test": "mocha --require ts-node/register 'test/**/*.test.ts'"
   },
   "keywords": [],
   "author": "Ishan Ladva",
   "license": "ISC",
   "devDependencies": {
-    "@types/chai": "^5.0.1",
+    "@types/chai": "^4.3.0",
     "@types/mocha": "^10.0.9",
     "@types/node": "^22.9.0",
-    "chai": "^5.1.2",
+    "chai": "^4.3.7",
     "mocha": "^10.8.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
